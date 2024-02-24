@@ -1,0 +1,33 @@
+{
+  "name": "level-p2p",
+  "version": "0.0.1",
+  "description": "LevelDB-backed user database for things like web applications",
+  "main": "db.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bitblock/leveldb-client"
+  },
+  "author": "Erick DEV",
+  "bugs": {
+    "url": "https://github.com/bitblock/leveldb-client"
+  },
+  "keywords": [
+    "level",
+    "leveldb",
+    "userdb"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.4",
+    "bcrypt": "^5.1.0",
+    "bytewise": "^1.1.0",
+    "commander": "^10.0.0",
+    "crypto-js": "^4.1.1",
+    "leveldown": "^6.1.1",
+    "levelup": "^5.1.1",
+    "through": "^2.3.8"
+  }
+}
